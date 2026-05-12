@@ -1,0 +1,29 @@
+# =============================================================================
+# requirements.txt — Financial BI Portfolio
+# Dependências do projeto com versões fixadas para garantir reprodutibilidade.
+#
+# Como instalar:
+#   pip install -r requirements.txt
+#
+# Como instalar incluindo dependências de desenvolvimento:
+#   pip install -r requirements.txt -r requirements-dev.txt
+# =============================================================================
+
+# --- Interface do Dashboard ---
+streamlit
+
+# --- Visualizações Interativas ---
+plotly
+
+# --- Manipulação de Dados ---
+pandas
+numpy
+scipy
+
+# --- Visualizações Estáticas (EDA) ---
+matplotlib
+seaborn
+
+# --- Relatórios e Exportação (EDA) ---
+reportlab
+openpyxl

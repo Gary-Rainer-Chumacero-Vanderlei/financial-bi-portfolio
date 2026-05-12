@@ -1,0 +1,35 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Exports locais (PDF e Excel da EDA — gerados localmente)
+# exports/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dev
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# NOTA: data/raw/*.csv NÃO está aqui — os CSVs são commitados no repositório.
+# Eles somam ~56KB e eliminam qualquer necessidade de geração em runtime.

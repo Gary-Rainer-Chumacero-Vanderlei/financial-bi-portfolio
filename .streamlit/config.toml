@@ -1,0 +1,17 @@
+[theme]
+# Tema claro profissional — compatível com todos os componentes nativos do Streamlit.
+# Evita conflitos com CSS customizado que causavam visual inconsistente.
+
+primaryColor        = "#1a7f4e"
+backgroundColor     = "#ffffff"
+secondaryBackgroundColor = "#f8f9fb"
+textColor           = "#1a1c23"
+font                = "sans serif"
+
+[server]
+# Desativa o aviso de e-mail na primeira execução
+headless            = true
+
+[browser]
+# Desativa telemetria de uso
+gatherUsageStats    = false

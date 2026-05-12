@@ -1,0 +1,35 @@
+# =============================================================================
+# pyproject.toml
+# Arquivo de configuração central do projeto.
+# Substitui setup.py, pytest.ini e outros arquivos de configuração antigos.
+# =============================================================================
+
+# =============================================================================
+# PYTEST
+# Configura como os testes devem ser descobertos e executados.
+# =============================================================================
+[tool.pytest.ini_options]
+
+# Onde o pytest deve procurar os testes
+testpaths = ["tests"]
+
+# Padrão de nomes de arquivos de teste
+python_files = ["test_*.py"]
+
+# Padrão de nomes de funções de teste
+python_functions = ["test_*"]
+
+# Exibe saída detalhada (-v) e mostra print() dentro dos testes (-s)
+addopts = "-v -s"
+
+
+# =============================================================================
+# MYPY
+# Verifica se os type hints estão corretos sem executar o código.
+# "mypy src/" no terminal aponta erros de tipo antes de rodar a aplicação.
+# =============================================================================
+[tool.mypy]
+python_version         = "3.14"
+warn_return_any        = true
+warn_unused_configs    = true
+ignore_missing_imports = true
