@@ -46,6 +46,6 @@ class Settings:
     SCORE_FAIXA_SAUDAVEL:     int   = 70
     SCORE_FAIXA_ATENCAO:      int   = 50
 
-    DASHBOARD_TITLE:  str = "Financial BI · Energética Norte"
+    DASHBOARD_TITLE:  str = "Financial BI · Energética Miramar"
     DASHBOARD_ICON:   str = "⚡"
     DASHBOARD_LAYOUT: str = "wide"

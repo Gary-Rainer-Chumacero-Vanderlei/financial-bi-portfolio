@@ -1,5 +1,5 @@
 # Financial Performance Dashboard
-### Energética Norte Distribuidora Ltda. · Jan/2023 – Dez/2024
+### Energética Miramar Distribuidora Ltda. · Jan/2023 – Dez/2024
 
 > Projeto de portfólio de Business Intelligence financeiro com dados sintéticos,
 > pipeline end-to-end e dashboard interativo em Streamlit.

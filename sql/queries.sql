@@ -1,6 +1,6 @@
 -- =============================================================================
 -- queries.sql
--- Financial Performance Dashboard — Energética Norte Distribuidora Ltda.
+-- Financial Performance Dashboard — Energética Miramar Distribuidora Ltda.
 -- Período: Jan/2023 – Dez/2024
 -- Banco:   SQLite (compatível com DuckDB e PostgreSQL com ajustes mínimos)
 --

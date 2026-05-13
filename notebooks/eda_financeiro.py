@@ -2,7 +2,7 @@
 notebooks/eda_financeiro.py — v4
 =================================
 Análise Exploratória com Storytelling — Financial Performance Dashboard
-Empresa: Energética Norte Distribuidora Ltda.
+Empresa: Energética Miramar Distribuidora Ltda.
 Período: Jan/2023 – Dez/2024
 
 EXECUÇÃO:
@@ -500,7 +500,7 @@ def gerar_pdf(pngs: list[Path], dados: dict, output_path: Path) -> None:
         str(output_path), pagesize=A4,
         leftMargin=ML, rightMargin=MR,
         topMargin=MS,  bottomMargin=MI,
-        title="Relatório Financeiro — Energética Norte",
+        title="Relatório Financeiro — Energética Miramar",
         author="Gary Rainer Chumacero Vanderlei",
     )
 
@@ -707,7 +707,7 @@ def gerar_pdf(pngs: list[Path], dados: dict, output_path: Path) -> None:
         [sp(30)],
         [Paragraph("📊 Análise Exploratória com Storytelling", s_capa_title)],
         [sp(8)],
-        [Paragraph("Energética Norte Distribuidora Ltda.", s_capa_sub)],
+        [Paragraph("Energética Miramar Distribuidora Ltda.", s_capa_sub)],
         [sp(4)],
         [Paragraph("João Pessoa – PB  ·  Jan/2023 – Dez/2024", s_capa_loc)],
         [sp(30)],
@@ -776,7 +776,7 @@ def gerar_pdf(pngs: list[Path], dados: dict, output_path: Path) -> None:
         Paragraph(
             "Esta análise é estruturada em três atos narrativos, conduzindo o leitor "
             "dos dados brutos até recomendações acionáveis para a gestão financeira "
-            "da Energética Norte Distribuidora Ltda., no período de janeiro de 2023 "
+            "da Energética Miramar Distribuidora Ltda., no período de janeiro de 2023 "
             "a dezembro de 2024.", s_body),
         sp(6),
     ]
@@ -1038,7 +1038,7 @@ def gerar_pdf(pngs: list[Path], dados: dict, output_path: Path) -> None:
         hr(before=4, after=10),
         Paragraph(
             "Análise realizada com dados sintéticos (seed=42) para fins de portfólio.  "
-            "Empresa fictícia: Energética Norte Distribuidora Ltda.",
+            "Empresa fictícia: Energética Miramar Distribuidora Ltda.",
             s_meta),
         Paragraph(
             "Gary Rainer Chumacero Vanderlei  ·  "
@@ -1147,7 +1147,7 @@ def gerar_excel(dados: dict, output_path: Path) -> None:
     # Título
     ws_r.merge_cells("A1:F1")
     c = ws_r["A1"]
-    c.value = "ENERGÉTICA NORTE  ·  Resumo Executivo  ·  Jan/2023 – Dez/2024"
+    c.value = "ENERGÉTICA MIRAMAR  ·  Resumo Executivo  ·  Jan/2023 – Dez/2024"
     c.fill  = fill(C_BG)
     c.font  = font(bold=True, color=C_ACCENT, size=14)
     c.alignment = center()

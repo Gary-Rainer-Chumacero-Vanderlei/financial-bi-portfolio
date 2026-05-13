@@ -29,7 +29,7 @@ from dashboard import (
 # =============================================================================
 
 st.set_page_config(
-    page_title="Financial BI · Energética Norte",
+    page_title="Financial BI · Energética Miramar",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -270,7 +270,7 @@ def _construir_sidebar(dados: dict[str, pd.DataFrame]) -> dict:
                 Gary Rainer Chumacero Vanderlei<br>Portfolio BI
             </div>
             <div style="font-size:18px; font-weight:700; color:#e8eaf0;">
-                ⚡ Energética Norte
+                ⚡ Energética Miramar
             </div>
             <div style="font-size:12px; color:#8b92a5; margin-top:2px;">
                 Distribuidora Ltda.

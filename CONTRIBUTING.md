@@ -1,5 +1,5 @@
 # Guia de Contribuição e Padrões de Código
-**Projeto:** Financial Performance Dashboard — Energética Norte Distribuidora Ltda.
+**Projeto:** Financial Performance Dashboard — Energética Miramar Distribuidora Ltda.
 
 Este documento descreve os padrões de código adotados no projeto.
 Qualquer contribuição deve seguir estas convenções.
