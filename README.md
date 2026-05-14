@@ -6,6 +6,14 @@
 
 ---
 
+## O Problema
+
+Toda virada de mês, o time financeiro de uma distribuidora de energia repete o mesmo ritual: exporta dados de sistemas diferentes, consolida planilhas separadas de DRE, fluxo de caixa e inadimplência, formata o relatório — e quando entrega para a diretoria, as informações já estão desatualizadas. Quando um custo fora do padrão aparece no departamento de Operações, a equipe só descobre no fechamento seguinte. Decisões estratégicas são tomadas no achismo, sem visibilidade integrada do que está acontecendo agora.
+
+**Este projeto resolve esse problema:** um pipeline end-to-end que vai da geração dos dados até um dashboard executivo interativo, com exportação de relatório em PDF e Excel — tudo em um único lugar, sem consolidação manual.
+
+---
+
 ## Visão Geral
 
 Este projeto simula o ambiente analítico de uma distribuidora de energia elétrica,
